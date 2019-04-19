@@ -1,0 +1,304 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24356,
+      "max": [
+        1.9425561428070068,
+        0.74374699592590332,
+        0.2021191269159317
+      ],
+      "min": [
+        0.00078145507723093033,
+        -0.80449843406677246,
+        -0.30078059434890747
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 292272,
+      "componentType": 5126,
+      "count": 24356,
+      "max": [
+        0.99997788667678833,
+        0.99984019994735718,
+        0.99993759393692017
+      ],
+      "min": [
+        -0.99957525730133057,
+        -0.99995511770248413,
+        -0.9999573826789856
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24356,
+      "max": [
+        0.99998372793197632,
+        0.99993282556533813,
+        0.99986964464187622,
+        1
+      ],
+      "min": [
+        -0.99992692470550537,
+        -0.99977868795394897,
+        -0.99994593858718872,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24356,
+      "max": [
+        0.99998831748962402,
+        0.99437433481216431
+      ],
+      "min": [
+        7.1302056312561035e-06,
+        1.6689300537109375e-06
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 102282,
+      "max": [
+        24355
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Mingxuan Xie (https://sketchfab.com/vrchitecture)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/path-outfit-4-27aaf2605be948a4b12c0fb265d55ec2",
+      "title": "PATH Outfit 4"
+    },
+    "generator": "Sketchfab-4.78.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 409128,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 194848,
+      "byteOffset": 409128,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 584544,
+      "byteOffset": 603976,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 389696,
+      "byteOffset": 1188520,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1578216,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/material0_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "material0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95770514949999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Model_2_material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "PATH_outfit_4.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.0071848359209558676,
+        0.99996180047010208,
+        0.0049775228156883188,
+        0,
+        -0.99997371510609812,
+        -0.0071798988477258519,
+        -0.0010090339164187121,
+        0,
+        -0.00097325726146856419,
+        -0.0049846417251573627,
+        0.99998710297542082,
+        0,
+        -0.0021172254346311092,
+        0.001218350138515234,
+        -0.00027687507099471986,
+        1
+      ],
+      "name": "Model"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        -2.9646153153900482e-20,
+        -1.7347234759768052e-18,
+        0,
+        2.9646153153900482e-20,
+        1,
+        4.3368086899420177e-19,
+        0,
+        1.7347234759768052e-18,
+        -4.3368086899420177e-19,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Model_2"
+    },
+    {
+      "mesh": 0,
+      "name": "Model_2_material0_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

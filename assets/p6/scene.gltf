@@ -1,0 +1,363 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        110.09841918945312,
+        234.4703369140625,
+        389.21743774414062
+      ],
+      "min": [
+        -164.81488037109375,
+        -1.4093281030654907,
+        58.525539398193359
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 109716,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99994909763336182,
+        0.99994564056396484,
+        0.99965363740921021
+      ],
+      "min": [
+        -0.99996554851531982,
+        -0.99982732534408569,
+        -0.99994295835494995
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99993836879730225,
+        0.99956393241882324,
+        0.99987459182739258,
+        1
+      ],
+      "min": [
+        -0.99980330467224121,
+        -0.9999118447303772,
+        -0.99988698959350586,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99368429183959961,
+        0.99498474597930908
+      ],
+      "min": [
+        0.00040815770626068115,
+        0.000408172607421875
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73144,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99368429183959961,
+        0.99498474597930908
+      ],
+      "min": [
+        0.00040815770626068115,
+        0.000408172607421875
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 146288,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99368429183959961,
+        0.99498474597930908
+      ],
+      "min": [
+        0.00040815770626068115,
+        0.000408172607421875
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 219432,
+      "componentType": 5126,
+      "count": 9143,
+      "max": [
+        0.99368429183959961,
+        0.99498474597930908
+      ],
+      "min": [
+        0.00040815770626068115,
+        0.000408172607421875
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 25962,
+      "max": [
+        9142
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Mingxuan Xie (https://sketchfab.com/vrchitecture)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/player-character-6-7458236091114562a5def99b9822cded",
+      "title": "Player Character 6"
+    },
+    "generator": "Sketchfab-4.78.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 103848,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 292576,
+      "byteOffset": 103848,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 219432,
+      "byteOffset": 396424,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 146288,
+      "byteOffset": 615856,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 762144,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/SimplygonMaterial_diffuse.png"
+    },
+    {
+      "uri": "textures/SimplygonMaterial_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/SimplygonMaterial_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.33635856609999998,
+          "specularFactor": [
+            0.050000000000000003,
+            0.050000000000000003,
+            0.050000000000000003
+          ],
+          "specularGlossinessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        }
+      },
+      "name": "SimplygonMaterial",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Simplygon_Proxy_SimplygonMaterial_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "ad64c2e7d1004c718d4606af109e55d0.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.0099999997764825821,
+        0,
+        0,
+        0,
+        0,
+        0.0099999997764825717,
+        4.3711387309712265e-10,
+        0,
+        0,
+        -4.3711387309712265e-10,
+        0.0099999997764825717,
+        0,
+        0.037539124488830566,
+        0,
+        -1.8608087301254272,
+        1
+      ],
+      "name": "Simplygon_Proxy"
+    },
+    {
+      "mesh": 0,
+      "name": "Simplygon_Proxy_SimplygonMaterial_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
