@@ -1,77 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>HyperBody IV: The HyperRave of Queer Maximalism</title>
+    <title>NPC Game</title>
 </head>
 <!-- include aframe -->
 <script src="./assets/aframe-master.js"></script>
 <!-- include aframe-ar.js -->
 <script src="./assets/aframe-ar.js"></script>
 
+<!-- <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script> -->
+<!-- <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script> -->
+
 <body style="margin: 0px; overflow: hidden;">
 	<!-- enable arjs on this scene -->
 	<a-scene embedded arjs="patternRatio: 0.7;" vr-mode-ui="enabled: false">
-		<assets>
-      <a-asset-item id="p2" src="./assets/p2/scene.gltf"></a-asset-item>
-      <a-asset-item id="p3" src="./assets/p3/scene.gltf"></a-asset-item>
-      <a-asset-item id="p4" src="./assets/p4/scene.gltf"></a-asset-item>
-      <a-asset-item id="p5" src="./assets/p5/scene.gltf"></a-asset-item>
-      <a-asset-item id="p6" src="./assets/p6/scene.gltf"></a-asset-item>
-      <a-asset-item id="path1" src="./assets/path1/scene.gltf"></a-asset-item>
-      <a-asset-item id="path2" src="./assets/path2/scene.gltf"></a-asset-item>
-      <a-asset-item id="path3" src="./assets/path3/scene.gltf"></a-asset-item>
-      <a-asset-item id="path4" src="./assets/path4/scene.gltf"></a-asset-item>
-		</assets>
+    <assets>
+        <a-asset-item id="sushi" src="./assets/sushi/scene.gltf"></a-asset-item>
+        <!-- Old To be replaces -->
+        <a-asset-item id="p2" src="./assets/p2/scene.gltf"></a-asset-item>
+        <a-asset-item id="p3" src="./assets/p3/scene.gltf"></a-asset-item>
+        <a-asset-item id="p4" src="./assets/p4/scene.gltf"></a-asset-item>
+        <a-asset-item id="p5" src="./assets/p5/scene.gltf"></a-asset-item>
+        <a-asset-item id="p6" src="./assets/p6/scene.gltf"></a-asset-item>
+        <a-asset-item id="path1" src="./assets/path1/scene.gltf"></a-asset-item>
+        <a-asset-item id="path2" src="./assets/path2/scene.gltf"></a-asset-item>
+        <a-asset-item id="path3" src="./assets/path3/scene.gltf"></a-asset-item>
+        <a-asset-item id="path4" src="./assets/path4/scene.gltf"></a-asset-item>
+    </assets>
 
-		<!-- New patt -->
-		<a-marker type="pattern" url="./patt/p2.patt">
-      <a-entity gltf-model="#p2" scale="0.015 0.015 0.015" rotation="-89.43871181992152 90.58462741018315 -90.52733163067008" scale="0.015 0.015 0.015" position="-0.125 0.296 1.614"></a-entity>
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Nagasena;align:center;color:#00ff00"></a-entity>
-      <!-- <a-box color="purple" depth="3" height="0.1" width="2"></a-box> -->
+    <!-- New patt -->
+    <a-marker type="pattern" url="./patt/a1.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="purple" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/p3.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Ching-Ying Lam;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#p3" rotation="-89.61059915846076 -91.7305430004448 91.7305430004448" position="-0.032 0.423 1.436" scale="0.015 0.015 0.015"></a-entity>
-      <!-- <a-box color="white" depth="3" height="0.1" width="2"></a-box> -->
-		</a-marker>
-    <a-marker type="pattern" url="./patt/p4.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhao Xingde;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#p4" rotation="90 180 0" scale="0.015 0.015 0.015" position="-0.031 0.233 1.436" rotation="0 0 0"></a-entity>
-      <!-- <a-box color="black" depth="3" height="0.1" width="2"></a-box> -->
+    <a-marker type="pattern" url="./patt/a2.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="white" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/p5.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhu Wangli;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#p5" rotation="90 180 0" scale="0.015 0.015 0.015" rotation="90.01166961505233 180.02333923010465 0" position="-0.14106994707715353 0.1886937636154658 1.4253857583289007"></a-entity>
-      <!-- <a-box color="magenta" depth="3" height="0.1" width="2"></a-box> -->
+    <a-marker type="pattern" url="./patt/a3.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="black" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/p6.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Song Hana;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#p6"  scale="1 1 1" rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
-      <!-- <a-box color="yellow" depth="3" height="0.1" width="2"></a-box> -->
-		</a-marker>
-    <a-marker type="pattern" url="./patt/path1.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhao Xingyu;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#path1"  scale="1.5 1.5 1.5" position="-0.042 0.386 1.498" rotation="-81.41730268808999 90.06896539456541 -90.06896539456541"></a-entity>
-      <!-- <a-box color="green" depth="3" height="0.1" width="2"></a-box> -->
+    <a-marker type="pattern" url="./patt/b1.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="magenta" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/path2.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Liu Yang;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#path2"  scale="1.5 1.5 1.5" position="0.034 0.429 1.487" rotation="-79.29735884610592 90.06896539456541 -90.01166961505233"></a-entity>
-      <!-- <a-box color="blue" depth="3" height="0.1" width="2"></a-box> -->
+    <a-marker type="pattern" url="./patt/b2.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="yellow" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/path3.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sabina Vitter;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#path3"  scale="1.5 1.5 1.5" position="-0.114 0.236 1.481" rotation="-77.87259379382495 85.67112727960914 -84.88167791517529"></a-entity>
-      <!-- <a-box color="grey" depth="3" height="0.1" width="2"></a-box> -->
+    <a-marker type="pattern" url="./patt/b3.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="green" depth="3" height="0.1" width="2"></a-box>
     </a-marker>
-    <a-marker type="pattern" url="./patt/path4.patt">
-      <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhang Yuhua;align:center;color:#00ff00"></a-entity>
-      <a-entity gltf-model="#path4"  scale="1.5 1.5 1.5" position="0.197 0.481 1.474" rotation="-81.07352801101149 90.06896539456541 -90.06896539456541"></a-entity>
-      <!-- <a-box color="red" depth="3" height="0.1" width="2"></a-box> -->
-		</a-marker>
-		<!-- add a simple camera -->
-        <a-entity camera id="maincamera"></a-entity>
-        <a-entity light="type: ambient; color: #FFFFFF"></a-entity>
+    <a-marker type="pattern" url="./patt/c1.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="blue" depth="3" height="0.1" width="2"></a-box>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/c2.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="red" depth="3" height="0.1" width="2"></a-box>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/c3.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="cyan" depth="3" height="0.1" width="2"></a-box>
+    </a-marker>
+
+    <!-- Use old Patt to test -->
+    <a-marker type="pattern" url="./patt/old/p2.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+        <a-box color="purple" depth="3" height="0.1" width="2"></a-box>
+    </a-marker>
+
+    <!-- Old patt To be removed -->
+    <a-marker type="pattern" url="./patt/old/p3.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Ching-Ying Lam;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#p3" rotation="-89.61059915846076 -91.7305430004448 91.7305430004448" position="-0.032 0.423 1.436" scale="0.015 0.015 0.015"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/p4.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhao Xingde;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#p4" rotation="90 180 0" scale="0.015 0.015 0.015" position="-0.031 0.233 1.436" rotation="0 0 0"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/p5.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhu Wangli;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#p5" rotation="90 180 0" scale="0.015 0.015 0.015" rotation="90.01166961505233 180.02333923010465 0" position="-0.14106994707715353 0.1886937636154658 1.4253857583289007"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/p6.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Song Hana;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#p6"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/path1.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhao Xingyu;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#path1"  scale="1.5 1.5 1.5" position="-0.042 0.386 1.498" rotation="-81.41730268808999 90.06896539456541 -90.06896539456541"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/path2.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Liu Yang;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#path2"  scale="1.5 1.5 1.5" position="0.034 0.429 1.487" rotation="-79.29735884610592 90.06896539456541 -90.01166961505233"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/path3.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sabina Vitter;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#path3"  scale="1.5 1.5 1.5" position="-0.114 0.236 1.481" rotation="-77.87259379382495 85.67112727960914 -84.88167791517529"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" url="./patt/old/path4.patt">
+        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Zhang Yuhua;align:center;color:#00ff00"></a-entity>
+        <a-entity gltf-model="#path4"  scale="1.5 1.5 1.5" position="0.197 0.481 1.474" rotation="-81.07352801101149 90.06896539456541 -90.06896539456541"></a-entity>
+    </a-marker>
+    <!-- add a simple camera -->
+    <a-entity camera id="maincamera"></a-entity>
+    <a-entity light="type: ambient; color: #FFFFFF"></a-entity>
   </a-scene>
 </body>
 </html>
