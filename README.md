@@ -1,2 +1,3 @@
-# npc-gamefest
-Test site for NPC Game at Zhijiang Youth Art Festival 
+# Npc-Gamefest
+under alpha test
+by Hyperbation http://index.hyperbation.space
