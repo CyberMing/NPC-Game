@@ -13,35 +13,13 @@
 	<a-scene embedded arjs="patternRatio: 0.8;" vr-mode-ui="enabled: false">
     <assets>
         <a-asset-item id="sushi" src="./assets/sushi/scene.gltf"></a-asset-item>
-        <!-- Old To be replaces -->
-        <a-asset-item id="p3" src="./assets/p3/scene.gltf"></a-asset-item>
     </assets>
-
-    <!-- New patt -->
-    <a-marker type="pattern" url="./patt/a1.patt">
-        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
-        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
-        <!-- <a-box color="purple" depth="3" height="0.1" width="2"></a-box> -->
-    </a-marker>
 
     <!-- New pattern test -->
     <a-marker type="pattern" url="./patt/d1.patt">
         <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
         <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
         <!-- <a-box color="cyan" depth="3" height="0.1" width="2"></a-box> -->
-    </a-marker>
-
-    <!-- Use old Patt to test -->
-    <a-marker type="pattern" url="./patt/old/p2.patt">
-        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Sushi;align:center;color:#00ff00"></a-entity>
-        <a-entity gltf-model="#sushi"   rotation="-70.41651302157818 90.06896539456541 -90.01166961505233" position="0.339 1.109 1.263"></a-entity>
-        <a-box color="purple" depth="3" height="0.1" width="2"></a-box>
-    </a-marker>
-
-    <!-- Old patt To be removed -->
-    <a-marker type="pattern" url="./patt/old/p3.patt">
-        <a-entity rotation="-90 0 0" position="0.204 0.741 -1.7" scale="7.636 7.636 7.636" text="font:mozillavr;value:Ching-Ying Lam;align:center;color:#00ff00"></a-entity>
-        <a-entity gltf-model="#p3" rotation="-89.61059915846076 -91.7305430004448 91.7305430004448" position="-0.032 0.423 1.436" scale="0.015 0.015 0.015"></a-entity>
     </a-marker>
 
     <!-- add a simple camera -->
