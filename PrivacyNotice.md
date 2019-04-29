@@ -15,5 +15,5 @@ The developer use Apple ARKit which integrates the iOS device camera and motion 
 - *AR 数据提供给NPC大游戏APP*: NPC大游戏APP接收来自 Apple ARKit 的数据。您可以在 [Apple 的 ARKit 网页](http://developer.apple.com/arkit/) 上了解有关 ARKit 的更多信息。该应用程序将知道手机在您周围的房间的位置和运动, 以及 ARKit 检测到的任何垂直或水平平面 (如墙壁、地板和桌子)。我们不会收到此信息。
 *AR Data Provided to NPCgame app*: NPCgame app receive information from Apple’s ARKit. You can learn more about ARKit on [Apple's ARKit Web Page](https://developer.apple.com/arkit/).  The app will know the position and motion of the phone in the room around you, as well as any vertical or horizontal planes that ARKit detects (such as walls, floors and tables). We do not receive this information.
 
-- *GPS 位置数据提供给 NPCgame 应用程序*: NPCgame 应用程序从用户的设备接收 GPS 位置数据, 以便将 AR 内容正确地放置在现实世界中。该应用程序将请求用户访问应用内 GPS 位置数据的权限。这种数据通信完全发生在用户的设备内。我们不会收到此信息。
+- *GPS 位置数据提供给NPC大游戏APP*: NPC大游戏APP从用户的设备接收GPS位置数据, 以便将AR内容正确地放置在现实世界中。该应用程序将请求用户访问应用内 GPS 位置数据的权限。这种数据通信完全发生在用户的设备内。我们不会收到此信息。
 *GPS Location Data Provided to NPCgame app*: NPCgame app receive GPS location data from user’s device to properly place AR contents in real world. The app will ask the user’s permission to access GPS location data within the app. This data communication is happened purely within the user’s device. We do not receive this information.
