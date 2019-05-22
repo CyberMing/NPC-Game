@@ -5937,7 +5937,7 @@ ARjs.Source.prototype._initSourceWebcam = function(onReady, onError) {
 
 	// init default value
 	onError = onError || function(error){	
-		alert('Webcam Error\nName: '+error.name + '\nMessage: '+error.message)
+		alert('微信不支持AR哦\nName: '+error.name + '\nMessage: '+error.message)
 	}
 
 	var domElement = document.createElement('video');
@@ -5957,7 +5957,7 @@ ARjs.Source.prototype._initSourceWebcam = function(onReady, onError) {
 		else console.assert(false)
 		onError({
 			name: '',
-			message: 'WebRTC issue-! '+fctName+' not present in your browser'
+			message: '请点击右上角使用手机自带浏览器（Safari）打开'
 		})
 		return null
 	}
