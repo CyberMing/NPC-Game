@@ -5957,7 +5957,7 @@ ARjs.Source.prototype._initSourceWebcam = function(onReady, onError) {
 		else console.assert(false)
 		onError({
 			name: '',
-			message: '请点击右上角使用手机自带浏览器(Safari)打开，并允许网页访问相机~'
+			message: '请点击右上角使用手机自带浏览器(Safari)打开，并允许网页访问相机来体验AR~'
 		})
 		return null
 	}
