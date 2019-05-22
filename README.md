@@ -1,3 +1,2 @@
-# Npc-Gamefest
-under alpha test
-by Hyperbation http://index.hyperbation.space
+# NPCplay
+under alpha test by Hyperbation
