@@ -1,2 +1,2 @@
 # NPCplay
-under alpha test by Hyperbation
+WebAR experience for Zhijiang International Youth Art Festival
