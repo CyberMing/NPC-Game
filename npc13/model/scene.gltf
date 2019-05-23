@@ -3,155 +3,74 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 65532,
+      "count": 57116,
       "max": [
-        4.0126700401306152,
-        2.3066117763519287,
-        6.8141512870788574
+        2.4240148067474365,
+        2.9236118793487549,
+        -13.206202507019043
       ],
       "min": [
-        -2.6680901050567627,
-        -4.7192916870117188,
-        -0.1691443920135498
+        -4.1750459671020508,
+        -3.155587911605835,
+        -18.182506561279297
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 786384,
+      "byteOffset": 685392,
       "componentType": 5126,
-      "count": 65532,
+      "count": 57116,
       "max": [
-        0.99988037347793579,
-        0.99978101253509521,
-        0.99994218349456787
+        0.99991142749786377,
+        0.99996072053909302,
+        0.99993813037872314
       ],
       "min": [
-        -0.99994480609893799,
-        -0.99958407878875732,
-        -0.9999428391456604
+        -0.99996930360794067,
+        -0.99994915723800659,
+        -0.9999813437461853
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 65532,
+      "count": 57116,
       "max": [
-        0.99999409914016724,
-        0.9999580979347229,
-        0.9999890923500061,
+        0.99995607137680054,
+        0.99999904632568359,
+        0.99997270107269287,
         1
       ],
       "min": [
-        -0.99990355968475342,
-        -0.99999421834945679,
-        -0.99997967481613159,
-        1
+        -0.9999840259552002,
+        -0.99996298551559448,
+        -0.99997609853744507,
+        -1
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 65532,
+      "count": 57116,
       "max": [
-        0.99493348598480225,
-        0.99987953901290894
+        0.9963458776473999,
+        0.99829238653182983
       ],
       "min": [
-        8.9939436293207109e-05,
-        1.8758699297904968e-05
+        0.00099485344253480434,
+        0.0029554073698818684
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 65532,
+      "count": 292266,
       "max": [
-        65531
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 1572768,
-      "componentType": 5126,
-      "count": 3891,
-      "max": [
-        4.6049342155456543,
-        0.95538097620010376,
-        5.0081772804260254
-      ],
-      "min": [
-        3.2910377979278564,
-        -1.9464313983917236,
-        0.1109917163848877
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 1619460,
-      "componentType": 5126,
-      "count": 3891,
-      "max": [
-        0.999259352684021,
-        0.99934273958206177,
-        0.99906867742538452
-      ],
-      "min": [
-        -0.99509918689727783,
-        -0.99621903896331787,
-        -0.99200022220611572
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 1048512,
-      "componentType": 5126,
-      "count": 3891,
-      "max": [
-        0.99827122688293457,
-        0.99801343679428101,
-        0.99715709686279297,
-        1
-      ],
-      "min": [
-        -0.99944818019866943,
-        -0.99882674217224121,
-        -0.97832000255584717,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 524256,
-      "componentType": 5126,
-      "count": 3891,
-      "max": [
-        0.9802405834197998,
-        0.9131888747215271
-      ],
-      "min": [
-        0.14900295436382294,
-        5.3108436986804008e-05
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 262128,
-      "componentType": 5125,
-      "count": 3891,
-      "max": [
-        3890
+        57115
       ],
       "min": [
         0
@@ -161,42 +80,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "Mingxuan Xie (https://sketchfab.com/vrchitecture)",
+      "author": "Pete Jiadong Qiang (https://sketchfab.com/qiangjiadong)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/npc-sushi-bf90427a5a034bf3892796313bc8ce62",
-      "title": "NPC Sushi"
+      "source": "https://sketchfab.com/3d-models/npc-doubleface-hungger-3e6bd896efcf4dcea70251fce685755c",
+      "title": "NPC: Doubleface Hungger"
     },
-    "generator": "Sketchfab-4.97.1",
+    "generator": "Sketchfab-5.29.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 277692,
+      "byteLength": 1169064,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 555384,
-      "byteOffset": 277692,
+      "byteLength": 456928,
+      "byteOffset": 1169064,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1666152,
-      "byteOffset": 833076,
+      "byteLength": 1370784,
+      "byteOffset": 1625992,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1110768,
-      "byteOffset": 2499228,
+      "byteLength": 913856,
+      "byteOffset": 2996776,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -204,7 +123,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 3609996,
+      "byteLength": 3910632,
       "uri": "scene.bin"
     }
   ],
@@ -234,7 +153,7 @@
           "texCoord": 0
         },
         "metallicFactor": 0,
-        "roughnessFactor": 0.95770514949999996
+        "roughnessFactor": 0.64462652440000001
       }
     }
   ],
@@ -250,22 +169,6 @@
             "TEXCOORD_0": 3
           },
           "indices": 4,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "Model_material0_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
-          },
-          "indices": 9,
           "material": 0,
           "mode": 4
         }
@@ -313,7 +216,7 @@
         0,
         1
       ],
-      "name": "267dfa4732f54e1da8882e07c70f768b.fbx"
+      "name": "doubleface hungger.fbx"
     },
     {
       "children": [
@@ -323,35 +226,12 @@
     },
     {
       "children": [
-        5,
-        6
-      ],
-      "matrix": [
-        0.37619099020957947,
-        0,
-        0,
-        0,
-        0,
-        0.158985177542978,
-        -0.34094482608846216,
-        0,
-        0,
-        0.34094482608846216,
-        0.158985177542978,
-        0,
-        -0.25729286670684814,
-        9.6518661507616343e-08,
-        -0.76927328109741211,
-        1
+        5
       ],
       "name": "Model"
     },
     {
       "mesh": 0,
-      "name": "Model_material0_0"
-    },
-    {
-      "mesh": 1,
       "name": "Model_material0_0"
     }
   ],
