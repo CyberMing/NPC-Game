@@ -16,6 +16,11 @@
     <a-marker type="pattern" url="../patt/pattern-npc05.patt">
         <a-image src="../label/ZhouJianren.png" rotation="-90 0 0" position="-0.749 0.874 -1.637" scale="2 0.5 2" material="" geometry=""></a-image>
         <a-image src="../label/LuXun.png" rotation="-90 0 0" position="1.356 0.781 -1.749" scale="2 0.5 2" material="" geometry=""></a-image>
+        <a-entity position="0 0 0" scale="1 0.5 1">
+            <a-image src="../label/loading.png" rotation="-90 0 0"></a-image>
+            <a-animation attribute="visible" dur="5000" from="true" to="false" repeat="0"></a-animation>
+            <a-animation attribute="rotation" dur="1000" fill="forwards" to="0 0 360" repeat="indefinite"></a-animation>
+        </a-entity>
         <a-entity gltf-model="#model" animation-mixer  rotation="14.152057539731334 -96.60068425905679 84.33938744325718" position="-0.001 1.956 1.153" scale="200 200 200"></a-entity>
         <!-- <a-box color="cyan" depth="3" height="0.1" width="2"></a-box> -->
     </a-marker>

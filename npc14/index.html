@@ -16,6 +16,11 @@
     <a-marker type="pattern" url="../patt/pattern-npc14.patt">
         <!-- <a-image src="../label/Dungeon.png" rotation="-90 0 0" position="0.204 0.741 -1.7" scale="2 0.5 2"></a-image> -->
         <a-image src="../label/Dungeon.png" rotation="-90 0 0" position="0 0 -3.3" scale="2 0.5 2" material="" geometry=""></a-image>
+        <a-entity position="0 0 0" scale="1 0.5 1">
+            <a-image src="../label/loading.png" rotation="-90 0 0"></a-image>
+            <a-animation attribute="visible" dur="5000" from="true" to="false" repeat="0"></a-animation>
+            <a-animation attribute="rotation" dur="1000" fill="forwards" to="0 0 360" repeat="indefinite"></a-animation>
+        </a-entity>
 
         <a-entity>
             <a-sphere src="#sky" radius="3" rotation="-90 0 0"></a-sphere>

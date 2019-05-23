@@ -15,6 +15,11 @@
 
     <a-marker type="pattern" url="../patt/pattern-npc03.patt">
         <a-image src="../label/DBQ.png" rotation="-90 0 0" position="0.204 0.741 -1.7" scale="2 0.5 2"></a-image>
+        <a-entity position="0 0 0" scale="1 0.5 1">
+            <a-image src="../label/loading.png" rotation="-90 0 0"></a-image>
+            <a-animation attribute="visible" dur="5000" from="true" to="false" repeat="0"></a-animation>
+            <a-animation attribute="rotation" dur="1000" fill="forwards" to="0 0 360" repeat="indefinite"></a-animation>
+        </a-entity>
         <a-entity gltf-model="#model" animation-mixer rotation="-88.35009200917294 56.55093437941226 -59.41572335506636" position="-0.06945 0.17128 2.57511" scale="9.38361 9.38361 9.38361"></a-entity>
         <!-- <a-box color="cyan" depth="3" height="0.1" width="2"></a-box> -->
     </a-marker>

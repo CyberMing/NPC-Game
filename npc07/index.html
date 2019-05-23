@@ -19,7 +19,12 @@
         <a-image src="../label/LvBuwei.png" rotation="-90 0 0" position="2.287 0.793 -1.781" scale="2 0.5 2" material="" geometry=""></a-image>
         <a-image src="../label/JingKe.png" rotation="-90 0 0" position="0.1847678398452193 0.9287228467661819 -1.4172921414261384" scale="2 0.5 2" material="" geometry=""></a-image>
 
-
+        <a-entity position="0 0 0" scale="1 0.5 1">
+            <a-image src="../label/loading.png" rotation="-90 0 0"></a-image>
+            <a-animation attribute="visible" dur="5000" from="true" to="false" repeat="0"></a-animation>
+            <a-animation attribute="rotation" dur="1000" fill="forwards" to="0 0 360" repeat="indefinite"></a-animation>
+        </a-entity>
+        
         <a-entity gltf-model="#model" animation-mixer  rotation="-82.44862671932546 -87.54795109598979 86.5166270647543" position="0.355 -0.617 0.488" scale="2.089 2.089 2.089"></a-entity>
         <!-- <a-box color="cyan" depth="3" height="0.1" width="2"></a-box> -->
     </a-marker>
